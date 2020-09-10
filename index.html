@@ -1,0 +1,805 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href= "./css/principal.css">
+    <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Chau+Philomene+One&display=swap" rel="stylesheet">
+</head>
+<body>
+    <ul class="menu">
+        <div class="logo"><img srcset="assets/logo.jpg"></div>
+        <div class="search">
+            <div class="b">Buscar</div>
+        </div>
+        <li><a href="#">Series</a></li>
+        <li><a href="#">Sitcoms</a></li>
+        <li><a href="#">Otros</a></li>
+    </ul>
+    <div class="content">
+        <div class="grilla">
+
+            <div class="popup" id="popup-1">
+                <div class="overlay"></div>
+                <div class="content">
+                  <div class="close-btn" onclick="togglePopup()">&times;</div>
+                  <h1>Community 1</h1>
+                  <p style="margin: 10px">Aca deberia ir algo sobre community</p>
+                </div>
+            </div>
+            <div class="fotos" onclick="togglePopup()">
+                <img srcset="assets/community1.jpg">
+                <div class="name"> Community</div>
+            </div>
+
+            <div class="popup" id="popup-2">
+                <div class="overlay"></div>
+                <div class="content">
+                  <div class="close-btn" onclick="togglePopup2()">&times;</div>
+                  <h1>The big bang theory</h1>
+                  <p>Aca deberia ir algo sobre Big bang theory</p>
+                </div>
+            </div>
+            <div class="fotos" onclick="togglePopup2()">
+                <img srcset="assets/tbbt1.jpg">
+                <div class="name"> Big Bang Theory</div>
+            </div>
+
+            <div class="popup" id="popup-3">
+                <div class="overlay"></div>
+                <div class="content">
+                  <div class="close-btn" onclick="togglePopup3()">&times;</div>
+                  <h1>Superstore </h1>
+                  <p>Aca deberia ir algo sobre Superstore</p>
+                </div>
+            </div>
+            <div class="fotos" onclick="togglePopup3()">
+                <img srcset="assets/superstore1.jpg">
+                <div class="name"> superstore</div>
+            </div>
+
+            <div class="popup" id="popup-4">
+                <div class="overlay"></div>
+                <div class="content">
+                  <div class="close-btn" onclick="togglePopup4()">&times;</div>
+                  <h1>The office </h1>
+                  <p>Aca deberia ir algo sobre The Office</p>
+                </div>
+            </div>
+            <div class="fotos" onclick="togglePopup4()">
+                <img srcset="assets/office1.jpg">
+                <div class="name"> The office</div>
+            </div>
+
+            <div class="popup" id="popup-5">
+                <div class="overlay"></div>
+                <div class="content">
+                  <div class="close-btn" onclick="togglePopup5()">&times;</div>
+                  <h1>Cloud 9 </h1>
+                  <p>Aca deberia ir algo sobre Cloud9</p>
+                </div>
+            </div>
+            <div class="fotos" onclick="togglePopup5()">
+                <img srcset="assets/superstore8.jpg">
+                <div class="name"> Cloud 9</div>
+            </div>
+
+            <div class="popup" id="popup-6">
+                <div class="overlay"></div>
+                <div class="content">
+                  <div class="close-btn" onclick="togglePopup6()">&times;</div>
+                  <h1>Modern Family </h1>
+                  <p >Aca deberia ir algo sobre Modern Family</p>
+                </div>
+            </div>
+            <div class="fotos" onclick="togglePopup6()">
+                    <img srcset="assets/mf5.jpg">
+                    <div class="name"> Modern Family</div>
+                </div>
+
+                <div class="popup" id="popup-4">
+                    <div class="overlay"></div>
+                    <div class="content">
+                      <div class="close-btn" onclick="togglePopup4()">&times;</div>
+                      <h1>The office </h1>
+                      <p>Aca deberia ir algo sobre The Office</p>
+                    </div>
+                </div>    
+            <div class="fotos" onclick="togglePopup4()">
+                <img srcset="assets/office10.jpg">
+                <div class="name"> Office</div>
+            </div>
+
+            <div class="popup" id="popup-2">
+                <div class="overlay"></div>
+                <div class="content">
+                  <div class="close-btn" onclick="togglePopup2()">&times;</div>
+                  <h1>The big bang theory</h1>
+                  <p>Aca deberia ir algo sobre Big bang theory</p>
+                </div>
+            </div>
+            <div class="fotos" onclick="togglePopup2()">
+                <img srcset="assets/tbbt5.jpg">
+                <div class="name"> TBBT</div>
+            </div>
+
+            <div class="popup" id="popup-3">
+                <div class="overlay"></div>
+                <div class="content">
+                  <div class="close-btn" onclick="togglePopup3()">&times;</div>
+                  <h1>Superstore </h1>
+                  <p>Aca deberia ir algo sobre Superstore</p>
+                </div>
+            </div>
+            <div class="fotos"  onclick="togglePopup2()">
+                <img srcset="assets/superstore7.jpg">
+                <div class="name"> Superstore</div>
+            </div>
+            
+            <div class="fotos">
+                <img srcset="assets/goodplace7.jpg">
+                <div class="name"> The Good Place</div>
+            </div>
+
+            <div class="popup" id="popup-7">
+                <div class="overlay"></div>
+                <div class="content">
+                  <div class="close-btn" onclick="togglePopup7()">&times;</div>
+                  <h1>Brooklyn 99</h1>
+                  <p>Aca deberia ir algo sobre Superstore</p>
+                </div>
+            </div>
+            <div class="fotos" onclick="togglePopup7()">
+                <img srcset="assets/b99-1.jpg">
+                <div class="name"> Brooklyn 99</div>
+            </div>
+
+            <div class="popup" id="popup-1">
+                <div class="overlay"></div>
+                <div class="content">
+                  <div class="close-btn" onclick="togglePopup()">&times;</div>
+                  <h1>Community 1</h1>
+                  <p style="margin: 10px">Aca deberia ir algo sobre community</p>
+                </div>
+            </div>
+            <div class="fotos" onclick="togglePopup()">
+                <img srcset="assets/community5.jpg">
+                <div class="name">Darkest Timeline</div>
+            </div>
+
+            <div class="popup" id="popup-7">
+                <div class="overlay"></div>
+                <div class="content">
+                  <div class="close-btn" onclick="togglePopup7()">&times;</div>
+                  <h1>Brooklyn 99</h1>
+                  <p>Aca deberia ir algo sobre Superstore</p>
+                </div>
+            </div>
+            <div class="fotos" onclick="togglePopup7()">
+                <img srcset="assets/b99-5.jpg">
+                <div class="name">Amy Santiago</div>
+            </div>
+
+            <div class="popup" id="popup-1">
+                <div class="overlay"></div>
+                <div class="content">
+                  <div class="close-btn" onclick="togglePopup()">&times;</div>
+                  <h1>Community 1</h1>
+                  <p style="margin: 10px">Aca deberia ir algo sobre community</p>
+                </div>
+            </div>
+            <div class="fotos" onclick="togglePopup()">
+                <img srcset="assets/community8.jpg">
+                <div class="name">Jeff Winger</div>
+            </div>
+
+            <div class="popup" id="popup-7">
+                <div class="overlay"></div>
+                <div class="content">
+                  <div class="close-btn" onclick="togglePopup7()">&times;</div>
+                  <h1>Brooklyn 99</h1>
+                  <p>Aca deberia ir algo sobre Superstore</p>
+                </div>
+            </div>
+            <div class="fotos" onclick="togglePopup7()">
+                <img srcset="assets/b99-6.jpg">
+                <div class="name">Baby Peralta-Santiago</div>
+            </div>
+            <div class="fotos">
+                <img srcset="assets/goodplace4.jpg">
+                <div class="name">The Good Place Logo</div>
+            </div>
+
+            <div class="popup" id="popup-3">
+                <div class="overlay"></div>
+                <div class="content">
+                  <div class="close-btn" onclick="togglePopup3()">&times;</div>
+                  <h1>Superstore </h1>
+                  <p>Aca deberia ir algo sobre Superstore</p>
+                </div>
+            </div>
+            <div class="fotos" onclick="togglePopup3()">
+                <img srcset="assets/superstore6.webp">
+                <div class="name">Cloud 9 Logo</div>
+            </div>
+
+            <div class="popup" id="popup-2">
+                <div class="overlay"></div>
+                <div class="content">
+                  <div class="close-btn" onclick="togglePopup2()">&times;</div>
+                  <h1>The big bang theory</h1>
+                  <p>Aca deberia ir algo sobre Big bang theory</p>
+                </div>
+            </div>
+            <div class="fotos" onclick="togglePopup2()">
+                <img srcset="assets/tbbt10.jpg">
+                <div class="name">Emmy Winner</div>
+            </div>
+
+            <div class="popup" id="popup-1">
+                <div class="overlay"></div>
+                <div class="content">
+                  <div class="close-btn" onclick="togglePopup()">&times;</div>
+                  <h1>Community 1</h1>
+                  <p style="margin: 10px">Aca deberia ir algo sobre community</p>
+                </div>
+            </div>
+            <div class="fotos" onclick="togglePopup()">
+                <img srcset="assets/community7.jpg">
+                <div class="name">Community Logo</div>
+            </div>
+            <div class="fotos">
+                <img srcset="assets/mf3.jpg">
+                <div class="name">La gran Familia</div>
+            </div>
+
+            <div class="popup" id="popup-4">
+                <div class="overlay"></div>
+                <div class="content">
+                  <div class="close-btn" onclick="togglePopup4()">&times;</div>
+                  <h1>The office </h1>
+                  <p>Aca deberia ir algo sobre The Office</p>
+                </div>
+            </div>
+            <div class="fotos" onclick="togglePopup4()">
+                <img srcset="assets/office9.jpg">
+                <div class="name">The Office Season 4</div>
+            </div>
+
+            <div class="popup" id="popup-3">
+                <div class="overlay"></div>
+                <div class="content">
+                  <div class="close-btn" onclick="togglePopup3()">&times;</div>
+                  <h1>Superstore </h1>
+                  <p>Aca deberia ir algo sobre Superstore</p>
+                </div>
+            </div>
+            <div class="fotos" onclick="togglePopup3()">
+                <img srcset="assets/superstore2.jpg">
+                <div class="name">Superstore Temporada 1</div>
+            </div>
+
+            <div class="popup" id="popup-2">
+                <div class="overlay"></div>
+                <div class="content">
+                  <div class="close-btn" onclick="togglePopup2()">&times;</div>
+                  <h1>The big bang theory</h1>
+                  <p>Aca deberia ir algo sobre Big bang theory</p>
+                </div>
+            </div>
+            <div class="fotos" onclick="togglePopup2()">
+                <img srcset="assets/tbbt3.jpg">
+                <div class="name">Rap Tbbt</div>
+            </div>
+
+            <div class="popup" id="popup-7">
+                <div class="overlay"></div>
+                <div class="content">
+                  <div class="close-btn" onclick="togglePopup7()">&times;</div>
+                  <h1>Brooklyn 99</h1>
+                  <p>Aca deberia ir algo sobre Superstore</p>
+                </div>
+            </div>
+            <div class="fotos" onclick="togglePopup7()">
+                <img srcset="assets/b99-3.jpg">
+                <div class="name">Fancy B99</div>
+            </div>
+
+            <div class="popup" id="popup-1">
+                <div class="overlay"></div>
+                <div class="content">
+                  <div class="close-btn" onclick="togglePopup()">&times;</div>
+                  <h1>Community 1</h1>
+                  <p style="margin: 10px">Aca deberia ir algo sobre community</p>
+                </div>
+            </div>
+            <div class="fotos" onclick="togglePopup()">
+                <img srcset="assets/community6.jpg">
+                <div class="name">8-bit Community</div>
+            </div>
+            <div class="fotos">
+                <img srcset="assets/goodplace6.png">
+                <div class="name">Good Place intro</div>
+            </div>
+            <div class="fotos">
+                <img srcset="assets/mf2.jpg">
+                <div class="name">La Familia Completa</div>
+            </div>
+
+            <div class="popup" id="popup-4">
+                <div class="overlay"></div>
+                <div class="content">
+                  <div class="close-btn" onclick="togglePopup4()">&times;</div>
+                  <h1>The office </h1>
+                  <p>Aca deberia ir algo sobre The Office</p>
+                </div>
+            </div>
+            <div class="fotos" onclick="togglePopup4()">
+                <img srcset="assets/office3.jpg">
+                <div class="name">Ultima temporada</div>
+            </div>
+
+            <div class="popup" id="popup-4">
+                <div class="overlay"></div>
+                <div class="content">
+                  <div class="close-btn" onclick="togglePopup4()">&times;</div>
+                  <h1>The office </h1>
+                  <p>Aca deberia ir algo sobre The Office</p>
+                </div>
+            </div>
+            <div class="fotos" onclick="togglePopup4()">
+                <img srcset="assets/office4.jpg">
+                <div class="name">Jim Pam</div>
+            </div>
+
+            <div class="popup" id="popup-3">
+                <div class="overlay"></div>
+                <div class="content">
+                  <div class="close-btn" onclick="togglePopup3()">&times;</div>
+                  <h1>Superstore </h1>
+                  <p>Aca deberia ir algo sobre Superstore</p>
+                </div>
+            </div>
+            <div class="fotos" onclick="togglePopup3()">
+                <img srcset="assets/superstore3.jpg">
+                <div class="name">New Manager</div>
+            </div>
+
+            <div class="popup" id="popup-2">
+                <div class="overlay"></div>
+                <div class="content">
+                  <div class="close-btn" onclick="togglePopup2()">&times;</div>
+                  <h1>The big bang theory</h1>
+                  <p>Aca deberia ir algo sobre Big bang theory</p>
+                </div>
+            </div>
+            <div class="fotos">
+                <img srcset="assets/tbbt4.jpg">
+                <div class="name">En parejas</div>
+            </div>
+
+            <div class="popup" id="popup-7">
+                <div class="overlay"></div>
+                <div class="content">
+                  <div class="close-btn" onclick="togglePopup7()">&times;</div>
+                  <h1>Brooklyn 99</h1>
+                  <p>Aca deberia ir algo sobre Superstore</p>
+                </div>
+            </div>
+            <div class="fotos" onclick="togglePopup7()">
+                <img srcset="assets/b99-2.jpg">
+                <div class="name">Cheddar presente</div>
+            </div>
+
+            <div class="popup" id="popup-1">
+                <div class="overlay"></div>
+                <div class="content">
+                  <div class="close-btn" onclick="togglePopup()">&times;</div>
+                  <h1>Community 1</h1>
+                  <p style="margin: 10px">Aca deberia ir algo sobre community</p>
+                </div>
+            </div>
+            <div class="fotos" onclick="togglePopup()">
+                <img srcset="assets/community3.jpg">
+                <div class="name">Halloween Special</div>
+            </div>
+            <div class="fotos">
+                <img srcset="assets/goodplace3.jpg">
+                <div class="name">Viendo al Vacio</div>
+            </div>
+            <div class="fotos">
+                <img srcset="assets/mf1.jpg">
+                <div class="name">Modern Family Season 6</div>
+            </div>
+
+            <div class="popup" id="popup-4">
+                <div class="overlay"></div>
+                <div class="content">
+                  <div class="close-btn" onclick="togglePopup4()">&times;</div>
+                  <h1>The office </h1>
+                  <p>Aca deberia ir algo sobre The Office</p>
+                </div>
+            </div>
+            <div class="fotos" onclick="togglePopup4()">
+                <img srcset="assets/office5.jpg">
+                <div class="name">Que ven?</div>
+            </div>
+
+            <div class="popup" id="popup-3">
+                <div class="overlay"></div>
+                <div class="content">
+                  <div class="close-btn" onclick="togglePopup3()">&times;</div>
+                  <h1>Superstore </h1>
+                  <p>Aca deberia ir algo sobre Superstore</p>
+                </div>
+            </div>
+            <div class="fotos" onclick="togglePopup3()">
+                <img srcset="assets/superstore5.jpg">
+                <div class="name">Mix de Superstore</div>
+            </div>
+
+            <div class="popup" id="popup-2">
+                <div class="overlay"></div>
+                <div class="content">
+                  <div class="close-btn" onclick="togglePopup2()">&times;</div>
+                  <h1>The big bang theory</h1>
+                  <p>Aca deberia ir algo sobre Big bang theory</p>
+                </div>
+            </div>
+            <div class="fotos">
+                <img srcset="assets/tbbt2.jpg">
+                <div class="name">Big logo</div>
+            </div>
+
+            <div class="popup" id="popup-7">
+                <div class="overlay"></div>
+                <div class="content">
+                  <div class="close-btn" onclick="togglePopup7()">&times;</div>
+                  <h1>Brooklyn 99</h1>
+                  <p>Aca deberia ir algo sobre Superstore</p>
+                </div>
+            </div>
+            <div class="fotos">
+                <img srcset="assets/b99-4.jpg">
+                <div class="name">Waiting for it!</div>
+            </div>
+
+            <div class="popup" id="popup-1">
+                <div class="overlay"></div>
+                <div class="content">
+                  <div class="close-btn" onclick="togglePopup()">&times;</div>
+                  <h1>Community 1</h1>
+                  <p style="margin: 10px">Aca deberia ir algo sobre community</p>
+                </div>
+            </div>
+            <div class="fotos" onclick="togglePopup()">
+                <img srcset="assets/community2.jpg">
+                <div class="name">Wallpaper Community</div>
+            </div>
+            <div class="fotos">
+                <img srcset="assets/goodplace1.jpg">
+                <div class="name">Wallpaper El Buen Lugar</div>
+            </div>
+            <div class="fotos">
+                <img srcset="assets/mf4.jpg">
+                <div class="name">Marco fotografico</div>
+            </div>
+
+            <div class="popup" id="popup-4">
+                <div class="overlay"></div>
+                <div class="content">
+                  <div class="close-btn" onclick="togglePopup4()">&times;</div>
+                  <h1>The office </h1>
+                  <p>Aca deberia ir algo sobre The Office</p>
+                </div>
+            </div>
+            <div class="fotos" onclick="togglePopup4()">
+                <img srcset="assets/office2.webp">
+                <div class="name">Temporada seis</div>
+            </div>
+
+            <div class="popup" id="popup-3">
+                <div class="overlay"></div>
+                <div class="content">
+                  <div class="close-btn" onclick="togglePopup3()">&times;</div>
+                  <h1>Superstore </h1>
+                  <p>Aca deberia ir algo sobre Superstore</p>
+                </div>
+            </div>
+            <div class="fotos" onclick="togglePopup3()">
+                <img srcset="assets/superstore4.jpg">
+                <div class="name"> German Cover</div>
+            </div>
+
+            <div class="popup" id="popup-2">
+                <div class="overlay"></div>
+                <div class="content">
+                  <div class="close-btn" onclick="togglePopup2()">&times;</div>
+                  <h1>The big bang theory</h1>
+                  <p>Aca deberia ir algo sobre Big bang theory</p>
+                </div>
+            </div>
+            <div class="fotos" onclick="togglePopup2()">
+                <img srcset="assets/tbbt6.jpg">
+                <div class="name"> Superhero pose</div>
+            </div>
+
+            <div class="popup" id="popup-7">
+                <div class="overlay"></div>
+                <div class="content">
+                  <div class="close-btn" onclick="togglePopup7()">&times;</div>
+                  <h1>Brooklyn 99</h1>
+                  <p>Aca deberia ir algo sobre Superstore</p>
+                </div>
+            </div>
+            <div class="fotos">
+                <img srcset="assets/b99-7.jpg">
+                <div class="name"> B99 Animado</div>
+            </div>
+
+            <div class="popup" id="popup-1">
+                <div class="overlay"></div>
+                <div class="content">
+                  <div class="close-btn" onclick="togglePopup()">&times;</div>
+                  <h1>Community 1</h1>
+                  <p style="margin: 10px">Aca deberia ir algo sobre community</p>
+                </div>
+            </div>
+            <div class="fotos" onclick="togglePopup()">
+                <img srcset="assets/community4.jpg">
+                <div class="name"> Season 2</div>
+            </div>
+            <div class="fotos">
+                <img srcset="assets/goodplace2.jpg">
+                <div class="name"> Coming in!</div>
+            </div>
+
+            <div class="popup" id="popup-7">
+                <div class="overlay"></div>
+                <div class="content">
+                  <div class="close-btn" onclick="togglePopup7()">&times;</div>
+                  <h1>Brooklyn 99</h1>
+                  <p>Aca deberia ir algo sobre Superstore</p>
+                </div>
+            </div>
+            <div class="fotos" onclick="togglePopup7()">
+                <img srcset="assets/b99-12.jpg">
+                <div class="name"> Break Glass</div>
+            </div>
+
+            <div class="popup" id="popup-4">
+                <div class="overlay"></div>
+                <div class="content">
+                  <div class="close-btn" onclick="togglePopup4()">&times;</div>
+                  <h1>The office </h1>
+                  <p>Aca deberia ir algo sobre The Office</p>
+                </div>
+            </div>
+            <div class="fotos" onclick="togglePopup4()">
+                <img srcset="assets/office6.jpg">
+                <div class="name"> Temporada 9</div>
+            </div>
+
+            <div class="popup" id="popup-2">
+                <div class="overlay"></div>
+                <div class="content">
+                  <div class="close-btn" onclick="togglePopup2()">&times;</div>
+                  <h1>The big bang theory</h1>
+                  <p>Aca deberia ir algo sobre Big bang theory</p>
+                </div>
+            </div>
+            
+            <div class="fotos" onclick="togglePopup2()">
+                <img srcset="assets/tbbt7.jpg">
+                <div class="name">Temporada 2</div>
+            </div>
+
+            <div class="popup" id="popup-7">
+                <div class="overlay"></div>
+                <div class="content">
+                  <div class="close-btn" onclick="togglePopup7()">&times;</div>
+                  <h1>Brooklyn 99</h1>
+                  <p>Aca deberia ir algo sobre Superstore</p>
+                </div>
+            </div>
+            <div class="fotos" onclick="togglePopup7()">
+                <img srcset="assets/b99-8.jpg">
+                <div class="name"> Sticker B99</div>
+            </div>
+
+            <div class="popup" id="popup-1">
+                <div class="overlay"></div>
+                <div class="content">
+                  <div class="close-btn" onclick="togglePopup()">&times;</div>
+                  <h1>Community 1</h1>
+                  <p style="margin: 10px">Aca deberia ir algo sobre community</p>
+                </div>
+            </div>
+            <div class="fotos" onclick="togglePopup()">
+                <img srcset="assets/community4.jpg">
+                <div class="name"> Full photo</div>
+            </div>
+            <div class="fotos">
+                <img srcset="assets/goodplace5.jpg">
+                <div class="name"> New world</div>
+            </div>
+
+            <div class="popup" id="popup-7">
+                <div class="overlay"></div>
+                <div class="content">
+                  <div class="close-btn" onclick="togglePopup7()">&times;</div>
+                  <h1>Brooklyn 99</h1>
+                  <p>Aca deberia ir algo sobre Superstore</p>
+                </div>
+            </div>
+            <div class="fotos" onclick="togglePopup7()">
+                <img srcset="assets/b99-14.jpg">
+                <div class="name">Brooklyn 99</div>
+            </div>
+
+            <div class="popup" id="popup-4">
+                <div class="overlay"></div>
+                <div class="content">
+                  <div class="close-btn" onclick="togglePopup4()">&times;</div>
+                  <h1>The office </h1>
+                  <p>Aca deberia ir algo sobre The Office</p>
+                </div>
+            </div>
+            <div class="fotos" onclick="togglePopup4()">
+                <img srcset="assets/office7.jpg">
+                <div class="name"> Season 8</div>
+            </div>
+
+            <div class="popup" id="popup-2">
+                <div class="overlay"></div>
+                <div class="content">
+                  <div class="close-btn" onclick="togglePopup2()">&times;</div>
+                  <h1>The big bang theory</h1>
+                  <p>Aca deberia ir algo sobre Big bang theory</p>
+                </div>
+            </div>
+            <div class="fotos" onclick="togglePopup2()">
+                <img srcset="assets/tbbt8.png">
+                <div class="name"> Background Movie</div>
+            </div>
+
+            <div class="popup" id="popup-7">
+                <div class="overlay"></div>
+                <div class="content">
+                  <div class="close-btn" onclick="togglePopup7()">&times;</div>
+                  <h1>Brooklyn 99</h1>
+                  <p>Aca deberia ir algo sobre Superstore</p>
+                </div>
+            </div>
+            <div class="fotos" onclick="togglePopup7()">
+                <img srcset="assets/b99-9.jpg">
+                <div class="name"> Peraltiago</div>
+            </div>
+
+            <div class="popup" id="popup-1">
+                <div class="overlay"></div>
+                <div class="content">
+                  <div class="close-btn" onclick="togglePopup()">&times;</div>
+                  <h1>Community 1</h1>
+                  <p style="margin: 10px">Aca deberia ir algo sobre community</p>
+                </div>
+            </div>
+            <div class="fotos" onclick="togglePopup()">
+                <img srcset="assets/community9.jpg">
+                <div class="name"> Grupo de Estudio</div>
+            </div>
+            <div class="fotos">
+                <img srcset="assets/goodplace8.jpeg">
+                <div class="name"> Now in netflix</div>
+            </div>
+
+            <div class="popup" id="popup-2">
+                <div class="overlay"></div>
+                <div class="content">
+                  <div class="close-btn" onclick="togglePopup2()">&times;</div>
+                  <h1>The big bang theory</h1>
+                  <p>Aca deberia ir algo sobre Big bang theory</p>
+                </div>
+            </div>
+            <div class="fotos" onclick="togglePopup2()">
+                <img srcset="assets/tbbt11.jpg">
+                <div class="name"> Big bang theroy logo</div>
+            </div>
+
+            <div class="popup" id="popup-7">
+                <div class="overlay"></div>
+                <div class="content">
+                  <div class="close-btn" onclick="togglePopup7()">&times;</div>
+                  <h1>Brooklyn 99</h1>
+                  <p>Aca deberia ir algo sobre Superstore</p>
+                </div>
+            </div>
+            <div class="fotos" onclick="togglePopup7()">
+                <img srcset="assets/b99-10.jpg">
+                <div class="name"> Brooklyn Bridge</div>
+            </div>
+
+            <div class="popup" id="popup-1">
+                <div class="overlay"></div>
+                <div class="content">
+                  <div class="close-btn" onclick="togglePopup()">&times;</div>
+                  <h1>Community 1</h1>
+                  <p style="margin: 10px">Aca deberia ir algo sobre community</p>
+                </div>
+            </div>
+            <div class="fotos" onclick="togglePopup()">
+                <img srcset="assets/community10.jpg">
+                <div class="name"> Elenco completo</div>
+            </div>
+
+            <div class="popup" id="popup-7">
+                <div class="overlay"></div>
+                <div class="content">
+                  <div class="close-btn" onclick="togglePopup7()">&times;</div>
+                  <h1>Brooklyn 99</h1>
+                  <p>Aca deberia ir algo sobre Superstore</p>
+                </div>
+            </div>
+            <div class="fotos" onclick="togglePopup7()">
+                <img srcset="assets/b99-13.jpg">
+                <div class="name"> Season 1</div>
+            </div>
+
+            <div class="popup" id="popup-2">
+                <div class="overlay"></div>
+                <div class="content">
+                  <div class="close-btn" onclick="togglePopup2()">&times;</div>
+                  <h1>The big bang theory</h1>
+                  <p>Aca deberia ir algo sobre Big bang theory</p>
+                </div>
+            </div>
+            <div class="fotos" onclick="togglePopup2()">
+                <img srcset="assets/tbbt12.jpg">
+                <div class="name"> Celebrando</div>
+            </div>
+
+            <div class="popup" id="popup-7">
+                <div class="overlay"></div>
+                <div class="content">
+                  <div class="close-btn" onclick="togglePopup7()">&times;</div>
+                  <h1>Brooklyn 99</h1>
+                  <p>Aca deberia ir algo sobre Superstore</p>
+                </div>
+            </div>
+            <div class="fotos" onclick="togglePopup7()">
+                <img srcset="assets/b99-11.png">
+                <div class="name"> Gun range</div>
+            </div>
+        </div>
+        <div class="piedepag">
+            <p>Sitcom page #profeun5</p>
+          </div>
+    </div>
+    <script>
+        function togglePopup(){
+        document.getElementById("popup-1").classList.toggle("active");
+        }
+
+        function togglePopup2(){
+        document.getElementById("popup-2").classList.toggle("active");
+        }
+        function togglePopup3(){
+        document.getElementById("popup-3").classList.toggle("active");
+        }
+        function togglePopup4(){
+        document.getElementById("popup-4").classList.toggle("active");
+        }
+        function togglePopup5(){
+        document.getElementById("popup-5").classList.toggle("active");
+        }
+        function togglePopup6(){
+        document.getElementById("popup-6").classList.toggle("active");
+        }
+        function togglePopup6(){
+        document.getElementById("popup-7").classList.toggle("active");
+        }
+    </script>
+</body>
+</html>
